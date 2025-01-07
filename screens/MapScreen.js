@@ -4,7 +4,7 @@ import MapView, { Marker } from 'react-native-maps';
 import MapViewDirections from 'react-native-maps-directions';
 import { useLocation } from '../hooks/useLocation'; // Kendi hook'unuz
 
-const GOOGLE_MAPS_APIKEY = 'AIzaSyDxht5FEtfRoqRFhING03lSo_cuCEexjpE'; // API anahtarınızı buraya ekleyin
+const GOOGLE_MAPS_APIKEY = 'API KEY'; // API anahtarınızı buraya ekleyin
 
 const MapScreen = ({ route }) => {
   const { event } = route.params;
