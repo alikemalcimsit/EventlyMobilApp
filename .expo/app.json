@@ -1,0 +1,17 @@
+{
+    "expo": {
+        "name": "Uygulamanızın Adı",
+        "slug": "uygulamaniz-slug",
+      "platforms": ["ios", "android"],
+     "android": {
+          "permissions": ["ACCESS_FINE_LOCATION" ,"READ_CALENDAR" ,"WRITE_CALENDAR"] 
+        },
+      "ios": {
+        "infoPlist": {
+          "NSLocationWhenInUseUsageDescription": "Uygulama konumunuzu kullanmak istiyor.",
+           "NSCalendarsUsageDescription": "Uygulama takviminizi kullanmak istiyor."
+        }
+      }
+    }
+  }
+  
